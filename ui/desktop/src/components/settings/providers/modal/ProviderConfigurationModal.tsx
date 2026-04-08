@@ -23,7 +23,7 @@ import {
   configureProviderOauth,
   cleanupProviderCache,
 } from '../../../../api';
-import { Button } from '../../../ui/button';
+import { Button } from '../../../../components/ui/button';
 import { errorMessage } from '../../../../utils/conversionUtils';
 import { defineMessages, useIntl } from '../../../../i18n';
 
