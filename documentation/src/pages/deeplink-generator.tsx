@@ -252,7 +252,7 @@ export default function DeeplinkGenerator() {
                 className={`flex-1 rounded-none ${activeTab === "form" ? "bg-secondary dark:bg-black" : "bg-transparent dark:bg-transparent hover:bg-bgApp"}`}
               >
                 <span
-                  className={`${activeTab === "form" ? "text-textProminent text-white" : "text-white dark:text-white"}`}
+                  className={`${activeTab === "form" ? "text-textProminent text-white" : "text-black dark:text-white"}`}
                 >
                   Form
                 </span>
@@ -262,7 +262,7 @@ export default function DeeplinkGenerator() {
                 className={`flex-1 rounded-none ${activeTab === "json" ? "bg-secondary dark:bg-black" : "bg-transparent dark:bg-transparent hover:bg-bgApp"}`}
               >
                 <span
-                  className={`${activeTab === "json" ? "text-textProminent text-white" : "text-white dark:text-white"}`}
+                  className={`${activeTab === "json" ? "text-textProminent text-white" : "text-black dark:text-white"}`}
                 >
                   JSON
                 </span>
